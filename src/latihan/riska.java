@@ -9,9 +9,20 @@ package latihan;
  * @author User
  */
 public class riska {
+    //attribute
+    int panjang;
+    int lebar;
     
+    //method
+    int luas(){
+       int area = this.lebar * this.panjang;
+       return area;
+    }
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        riska A = new riska();
+        A.lebar = 2;
+        A.panjang = 4;
+        System.out.println(A.luas());
     }
 }
 
