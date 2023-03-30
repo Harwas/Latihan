@@ -6,12 +6,8 @@ package latihan;
 
 /**
  *
- * @author User
+ * @author ASUS
  */
-public class riska {
+public class Roy {
     
-    public static void main(String[] args) {
-        System.out.println("Hello World");
-    }
 }
-
